@@ -1,0 +1,11 @@
+{
+	"name": "AKVLS_cicd",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://anwarakv.vault.azure.net/"
+		}
+	}
+}
